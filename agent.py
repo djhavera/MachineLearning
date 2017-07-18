@@ -138,10 +138,12 @@ class LearningAgent(Agent):
             else:
                 action_list = [k for k, v in self.Q[state].items() if v >= self.get_maxQ(state)]
                 action = random.choice(action_list)
+        else:
+            action = random.choice(self.valid_actions)
+        
         return action
             
-        return action
-        
+           
        
         
         ########### 
