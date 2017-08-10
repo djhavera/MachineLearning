@@ -1,0 +1,8 @@
+(lp0
+S'poi'
+p1
+aS'feature_a'
+p2
+aS'feature_b'
+p3
+a.
